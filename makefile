@@ -1,5 +1,5 @@
 # CC = gcc
-# AR=ar
+# AR=ar//
 # CFLAGS = -Wall
 # LFLAGS= -shared
 # SFLAGS=rcu
