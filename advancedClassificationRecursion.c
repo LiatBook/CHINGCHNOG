@@ -52,7 +52,7 @@ int reversRec(int num, int rev)
         return rev;
     }
     rev = (rev * 10) + (num % 10);
-    return reversRec(num / 10, rev); // The recursion call
+    return reversRec(num / 10, rev); 
     return false;
 }
 
