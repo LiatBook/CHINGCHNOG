@@ -2,12 +2,6 @@
 #include "NumClass.h"
 #include <stdio.h>
 
-
-
-/**
- * A strong number is the factorial sum of its digits, equal to the number itself.
- * 
-*/
 int isArmstrong(int numInt){
     int  orginalnum = numInt;
     int remainder;
@@ -48,11 +42,6 @@ int isArmstrong(int numInt){
 
 
 
-/**
- * Strong number is a special number whose sum of the factorial of digits is equal to the original number. 
- * For Example: 145 is strong number. Since, 1! + 4! + 5! = 145. 
- * @return 1 if numInt is strong number.
-*/
 int isPalindrome(int numInt){
     int remainder;
     int sum = 0;
